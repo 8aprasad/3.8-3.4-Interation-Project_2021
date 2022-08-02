@@ -1,48 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Gannet Beach Adventures</title>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!-- import code needed for site to be responsive -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- import keywords for search engines -->
-		<meta name="Keywords" content="html5, GAnnet, Responsive Design"/>
-		<meta name="Author" content="Ashley Prasad"/>
-		<meta name="Description" content="Gannet Beach Adventure"/>
-		<!--import the webpages stylesheet -->
-		<link rel = "stylesheet" href="css/style4.css">
-		<!--import webpages javascript file-->
-		<script src="js/javascript2.js" defer></script>
-	</head>
-	<body>	<?php
-				//Pull links from the nav.php page and places them in the navigation div
-				require("nav2.php")//'require' is 100% needed for the site to run 
-				?>
-		<div id = "main">	
+<!-- This file is the index "Home page" for my Database -->
+<html>
+<head>
+	<title>Lorem</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<script src="js/javascript2.js" defer></script>
 
-			<?php
-			//Get the connection to the database. Put the link to your own connection file here
-			require_once("IterationProject_2022_mysqli.php");
-			?>
-			<div class="header">
-				
-					<h1>Lorem Ipsum.</h1>	
-			</div>
-			
-			<div class="box">
-<p>Lorem Ipsum.<br>Lorem Ipsum.</p>
-			
+</head>
+<body>
+	<div id = "main">
+		<img src="images/banner.jpg" class="banner"><!-- banner used above navigation -->
+
+	
+		
+		
+
+		
+		<hr>
+		<?php
+		//Pull links from the nav.php page and places them in the navigation div
+		require("nav2.php")//'require' is 100% needed for the site to run 
+		?>
+		<br><br><hr>
+		<?php
+		//Get the connection to the database. Put the link to your own connection file here
+		require_once("IterationProject_2022_mysqli.php");
+		?>
+		
+				<h1>Welcome to </h1>
+
+		<div id = "container">
+			<div class="headings1">
+				<!-- These are the four linked images in the home page -->
+				<h2><a href="https://projectspace.nz/nvlhyfjo/91892_page2.php">
+					<img border="0" alt="Lorem" height=300 width=200 src="images/bugger_blk_tee_mens.jpg" >
+					</a> <figcaption>Lorem</figcaption></h2>
+				<h2><a href="https://projectspace.nz/nvlhyfjo/91892_page3.php">
+					<img border="0" alt="Lorem" height=300 width=200 src="images/birdring.jpg" >
+					</a> <figcaption>Lorem</figcaption></h2>
+				<h2><a href="https://projectspace.nz/nvlhyfjo/91892_page3.php">
+					<img border="0" alt="Lorem" height=300 width=200 src="images/yellowkidsbanner.jpg" >
+					</a> <figcaption>Lorem</figcaption></h2>
+				<h2><a href="https://projectspace.nz/nvlhyfjo/91892_page1.php">
+					<img border="0" alt="Lorem" height=300 width=200 src="images/boldbanner.jpg" >
+					</a> <figcaption>Lorem</figcaption></h2>
 					
-			</div>
-			
-			<div class="box1">
-  					<p>Lorem Ipsum.<img src="images/img_4693.jpg" alt="Trulli" style="width:100%;margin-top:10%;border:2px solid black;margin-bottom:10%;">Lorem Ipsum.</p><p>Lorem Ipsum.<img src="images/img_4700.jpg" alt="Trulli" style="width:100%;margin-top:10%;border:2px solid black;margin-bottom:10%;">Lorem Ipsum.</p>
-			</div>
-			
-			<div id="footer">
-			&copy; Lorem Ipsum.2022
+				
+				
+					
+			 <br><br>
+
 		</div>
-		</div>	
-	</body>
-</html>
+			
+			
+
+		</div><!-- end of my container-->
+	</div>
+</body>
+</html>	
+
+
+
