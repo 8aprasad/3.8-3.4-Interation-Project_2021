@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Gannet Beach Adventures</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- import code needed for site to be responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- import keywords for search engines -->
+		<meta name="Keywords" content="html5, GAnnet, Responsive Design"/>
+		<meta name="Author" content="Ashley Prasad"/>
+		<meta name="Description" content="Gannet Beach Adventure"/>
+		<!--import the webpages stylesheet -->
+		<link rel = "stylesheet" href="css/style1.css">
+		<!--import webpages javascript file-->
+		<script src="js/javascript2.js" defer></script>
+	</head>
+	<body>	<?php
+				//Pull links from the nav.php page and places them in the navigation div
+				require("nav3.php")//'require' is 100% needed for the site to run 
+				?>
+		<div id = "main">	
+
+			<?php
+			//Get the connection to the database. Put the link to your own connection file here
+			require_once("IterationProject_2022_mysqli.php");
+			?>
+			<div class="header">
+				<h2>150 Years of</h2>
+					<h1>Caring & Protection</h1>	<br><br>
+			</div>
+			
+			<div class="box">
+<p><br>SPCA New Zealand</p>
+			
+					
+			</div>
+			
+			<div class="box1">
+				<p><b>Educate & engage</b><br><br>
+Every year thousands of abused, neglected and injured animals arrive in SPCA’s care. To stop this trend we developed a free education programme that aims to improve animal lives by nurturing the young hearts and minds of Aotearoa, New Zealand. <a href="https://www.spca.nz/what-we-do/educate-and-engage/">https://www.spca.nz/what-we-do/educate-and-engage</a>
+<img src="images/corgi.jpeg" alt="Trulli" style="width:100%;margin-top:10%;border:2px solid black;margin-bottom:10%;"><b>Animal rescue</b><br><br>
+Our SPCA Inspectors, Field Officers and rescue teams work on the front line every day, rescuing animals who have been in an accident, abused, neglected, abandoned or caught up in natural disaster.
+</p><p><b>Rehabilitate</b><br><br>
+Our SPCA Centres, animal hospitals and co-operating vet clinics are the first stop for all animals that come into SPCA care. Here we provide essential care and medical treatment to animals that are sick and injured, as well as routine health checks, vaccinations, microchips and desexing.
+<img src="images/copper.jpeg" alt="Trulli" style="width:100%;margin-top:10%;border:2px solid black;margin-bottom:10%;"><b>Seek justice</b><br><br>
+SPCA is the only charity with the legal powers to help animals in need and bring animal offenders to justice. Our Inspectors are appointed under the Animal Welfare Act 1999 which provides powers to investigate cruelty, abuse, neglect and abandonment.
+</p>
+			</div>
+			
+			<div id="footer">
+			&copy; Design Credits to Ashley Prasad 2022 All Rights Reserved. All written content sourced from <a href="https://www.spca.nz/">spca.nz</a>
+<br><br>
+		</div>
+		</div>	
+	</body>
+</html>
