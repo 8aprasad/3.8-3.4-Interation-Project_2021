@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>Gannet Beach Adventures</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- import code needed for site to be responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- import keywords for search engines -->
+		<meta name="Keywords" content="html5, GAnnet, Responsive Design"/>
+		<meta name="Author" content="Ashley Prasad"/>
+		<meta name="Description" content="Gannet Beach Adventure"/>
+		<!--import the webpages stylesheet -->
+		<link rel = "stylesheet" href="css/style5.css">
+		<!--import webpages javascript file-->
+		<script src="js/javascript2.js" defer></script>
+	</head>
+	<body>	<?php
+				//Pull links from the nav.php page and places them in the navigation div
+				require("nav3.php")//'require' is 100% needed for the site to run 
+				?>
+		<div id = "main">	
 
-<head>
-	<meta charset="utf-8">
-		
-	<meta name="Author" content="Mr Foulds">
-	<meta name="Keywords" content="HTML, CSS, PHP, SQL, JavaScript">
-	<meta name="Description" content="13CSI Music Database">
-	
-	<title>Music Database</title>
-		
-	<link rel="stylesheet" href="css/style.css"/>
+			<?php
+			//Get the connection to the database. Put the link to your own connection file here
+			require_once("IterationProject_2022_mysqli.php");
+			?>
+			<div class="header">
+				
+					<h1>Lorem Ipsum.</h1>	
+			</div>
 			
-</head>
-
-	<!-- main webpage content starts here -->  
-  <body>
-  
-	<div class="grid-container">
-	
-	<div class="header">Header</div>
-	
-	<div class="sidebar">Sidebar</div>
-	
-		<div class="content">
-		<div class="scroll-area">
-		
-		<h1><center>Login Page</center></h1>
-		
-		<h3>Please Login using the following format:</h3>
-		<hr></hr>
-		h3>Username: DFoulds</h3>
-		<p>For password use your intitals + Student ID Number in this format:</p>
-		<h3>Password: Dfoulds21687</h3>
-		<p></p>
+			<div class="box">
+<p>Lorem Ipsum.<br>Lorem Ipsum.</p>
+			
+					
+			</div>
+			
+			<div class="box1">
+  					<p>Lorem Ipsum.<img src="images/img_4693.jpg" alt="Trulli" style="width:100%;margin-top:10%;border:2px solid black;margin-bottom:10%;">Lorem Ipsum.</p><p>Lorem Ipsum.<img src="images/img_4700.jpg" alt="Trulli" style="width:100%;margin-top:10%;border:2px solid black;margin-bottom:10%;">Lorem Ipsum.</p>
+			</div>
+			
+			<div id="footer">
+			&copy; Lorem Ipsum.2022
 		</div>
-    </div>
-	
-	<div class="footer">Footer</div>
-    
-	</div>
-	
-  </body>
+		</div>	
+	</body>
 </html>
